@@ -10,30 +10,30 @@ import java.util.Date;
  *
  * @author Phan Tien
  */
-public class DangKyMuon {
-    private int maDangKy;
+public class PhieuMuon {
+    private int maPhieuMuon;
     private Date ngayMuon;
     private String maPhong;
-    private int idLoaiThietBi;
     private String maSVMuon;
+    private String maNVXuat;
 
-    public DangKyMuon() {
+    public PhieuMuon() {
     }
 
-    public DangKyMuon(int maDangKy, Date ngayMuon, String maPhong, int idLoaiThietBi, String maSVMuon) {
-        this.maDangKy = maDangKy;
+    public PhieuMuon(int maPhieuMuon, Date ngayMuon, String maPhong, String maSVMuon, String maNVXuat) {
+        this.maPhieuMuon = maPhieuMuon;
         this.ngayMuon = ngayMuon;
         this.maPhong = maPhong;
-        this.idLoaiThietBi = idLoaiThietBi;
         this.maSVMuon = maSVMuon;
+        this.maNVXuat = maNVXuat;
     }
 
-    public int getMaDangKy() {
-        return maDangKy;
+    public int getMaPhieuMuon() {
+        return maPhieuMuon;
     }
 
-    public void setMaDangKy(int maDangKy) {
-        this.maDangKy = maDangKy;
+    public void setMaPhieuMuon(int maPhieuMuon) {
+        this.maPhieuMuon = maPhieuMuon;
     }
 
     public Date getNgayMuon() {
@@ -52,14 +52,6 @@ public class DangKyMuon {
         this.maPhong = maPhong;
     }
 
-    public int getIdLoaiThietBi() {
-        return idLoaiThietBi;
-    }
-
-    public void setIdLoaiThietBi(int idLoaiThietBi) {
-        this.idLoaiThietBi = idLoaiThietBi;
-    }
-
     public String getMaSVMuon() {
         return maSVMuon;
     }
@@ -67,5 +59,14 @@ public class DangKyMuon {
     public void setMaSVMuon(String maSVMuon) {
         this.maSVMuon = maSVMuon;
     }
+
+    public String getMaNVXuat() {
+        return maNVXuat;
+    }
+
+    public void setMaNVXuat(String maNVXuat) {
+        this.maNVXuat = maNVXuat;
+    }
+    
     
 }

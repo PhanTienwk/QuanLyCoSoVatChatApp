@@ -10,14 +10,14 @@ package model;
  */
 public class LoaiThietBi {
     private int idLoaiTB;
-    private String loaiThietBi;
+    private String loaiTB;
 
     public LoaiThietBi() {
     }
 
-    public LoaiThietBi(int idLoaiTB, String loaiThietBi) {
+    public LoaiThietBi(int idLoaiTB, String loaiTB) {
         this.idLoaiTB = idLoaiTB;
-        this.loaiThietBi = loaiThietBi;
+        this.loaiTB = loaiTB;
     }
 
     public int getIdLoaiTB() {
@@ -28,12 +28,12 @@ public class LoaiThietBi {
         this.idLoaiTB = idLoaiTB;
     }
 
-    public String getLoaiThietBi() {
-        return loaiThietBi;
+    public String getLoaiTB() {
+        return loaiTB;
     }
 
-    public void setLoaiThietBi(String loaiThietBi) {
-        this.loaiThietBi = loaiThietBi;
+    public void setLoaiTB(String loaiTB) {
+        this.loaiTB = loaiTB;
     }
     
     

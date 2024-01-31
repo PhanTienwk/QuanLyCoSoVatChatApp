@@ -2,9 +2,10 @@ package model;
 
 import java.util.Date;
 
+
 public class Nguoi {
     private String hoTen;
-    private Date ngSinh;
+    private Date ngaySinh;
     private Byte gioiTinh;
     private String diaChi;
     private String email;
@@ -12,9 +13,9 @@ public class Nguoi {
     public Nguoi() {
     }
 
-    public Nguoi(String hoTen, Date ngSinh, Byte gioiTinh, String diaChi, String email) {
+    public Nguoi(String hoTen, Date ngaySinh, Byte gioiTinh, String diaChi, String email) {
         this.hoTen = hoTen;
-        this.ngSinh = ngSinh;
+        this.ngaySinh = ngaySinh;
         this.gioiTinh = gioiTinh;
         this.diaChi = diaChi;
         this.email = email;
@@ -28,12 +29,12 @@ public class Nguoi {
         this.hoTen = hoTen;
     }
 
-    public Date getNgSinh() {
-        return ngSinh;
+    public Date getNgaySinh() {
+        return ngaySinh;
     }
 
-    public void setNgSinh(Date ngSinh) {
-        this.ngSinh = ngSinh;
+    public void setNgaySinh(Date ngaySinh) {
+        this.ngaySinh = ngaySinh;
     }
 
     public Byte getGioiTinh() {
@@ -61,6 +62,5 @@ public class Nguoi {
     }
     
     
-
     
 }
